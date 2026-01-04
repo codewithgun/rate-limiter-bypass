@@ -1,0 +1,20 @@
+[package]
+name = "rate_limiter_bypass"
+version = "0.0.1"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "rate_limiter_bypass"
+
+[features]
+
+[dependencies]
+const-crypto = "0.3.0"
+pinocchio = { git = "https://github.com/anza-xyz/pinocchio.git", rev = "17b0e862c01a868ea07ef81a2f8a9b4a504bdfed" }
+pinocchio-pubkey = "0.3.0"
+pinocchio-system = "0.4.0"
+
+
+[dev-dependencies]
